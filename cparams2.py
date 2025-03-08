@@ -3,10 +3,10 @@ import sys
 try:
     if len(sys.argv) == 3:
         num = int(sys.argv[1])  
-        print(f"Número de arguments correctes: són {num} i {sys.argv[2]}")
+        print(f"Número de argumentos correctos: son {num} y {sys.argv[2]}")
     else:
-        print("Número d'arguments incorrecte.")
+        print("Número de argumentos incorrecto.")
 except ValueError:
-    print("Error: El primer argument ha de ser un número.")
+    print("Error: El primer argumento debe ser un número.")
 finally:
-    print("FI")
+    print("FIN")
